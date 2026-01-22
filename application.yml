@@ -25,7 +25,7 @@ spring :
     database-platform: org.hibernate.dialect.MariaDBDialect
     generate-ddl: true
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
     show_sql: true
   cloud:
     bus:
